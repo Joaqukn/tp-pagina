@@ -109,6 +109,7 @@ body{
 }
 
 .main-content{
+    padding: 100px 0;
     background-color: gray;
 }
 
@@ -197,6 +198,29 @@ body{
     position: absolute;
     top: 0;
     right: -3rem;
+    z-index: -1;
+    transition: all .4s ease;
+}
+
+.buttom-group span{
+    border: 1px solid chocolate;
+    padding: .8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.buttom-group span:hover{
+    background-color: red;
+}
+
+.card-product:hover .buttom-group{
+    z-index: 0;
+    right: -1rem;
 }
 
 .content-card-product{
