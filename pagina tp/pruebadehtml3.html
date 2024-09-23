@@ -1,106 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>productos</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style3.css">
+    <title>Pagina del proyecto</title>
+    <link rel="stylesheet" href="style4.css">
 </head>
 
 <body>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="flecha con solid"></i>
-                    <img src="imagenes/xd.png" alt="">
-                    <i class="regular con corazon"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$400</span>
-                        <h1>Cancha profesional</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus cum cupiditate
-                            eveniet aspernatur hic mollitia accusamus facere, voluptatem, sit maiores, adipisci odio
-                            odit quibusdam libero a. Architecto, alias eveniet?
-                        </p>
-                    </div>
-                    <div class="product-img">
-                        <img src="imagenes" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Reservar</a>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="flecha con solid"></i>
-                    <img src="imagenes/xd.png" alt="">
-                    <i class="regular con corazon"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$400</span>
-                        <h1>Cancha profesional</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus cum cupiditate
-                            eveniet aspernatur hic mollitia accusamus facere, voluptatem, sit maiores, adipisci odio
-                            odit quibusdam libero a. Architecto, alias eveniet?
-                        </p>
-                    </div>
-                    <div class="product-img">
-                        <img src="imagenes" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Reservar</a>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="flecha con solid"></i>
-                    <img src="imagenes/xd.png" alt="">
-                    <i class="regular con corazon"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$400</span>
-                        <h1>Cancha profesional</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus cum cupiditate
-                            eveniet aspernatur hic mollitia accusamus facere, voluptatem, sit maiores, adipisci odio
-                            odit quibusdam libero a. Architecto, alias eveniet?
-                        </p>
-                    </div>
-                    <div class="product-img">
-                        <img src="imagenes" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Reservar</a>
-            </div>
+    <header class="header">
+        <div class="menu container">
+            <a href="a" class="logo">Logo<i class="fa-solid fa-bars"></i></a>
+            <input type="checkbox" id="menu" />
+            <lebel for="menu">
+                <img src="imagen" class="menu-icono" alt="">
+            </lebel>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="file:///C:/Users/Usuario%202/Desktop/proyecto/tp-pagina/pagina%20tp/index2.html">Iniciar sesion</a></li>
+                    <li><a href="file:///C:/Users/Usuario%202/Desktop/proyecto/tp-pagina/pagina%20tp/mantenimiento.html">servicio</a></li>
+                    <li><a href="file:///C:/Users/Usuario%202/Desktop/proyecto/tp-pagina/pagina%20tp/mantenimiento.html">concactos</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+        <div class="header-content container">
 
+            <h1>Proyect html</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores delectus impedit assumenda, nisi
+                blanditiis adipisci quia architecto quam alias. Unde aut veniam voluptatibus a adipisci necessitatibus
+                maxime veritatis nisi eos.
+            </p>
+            <a href="file:///C:/Users/Usuario%202/Desktop/proyecto/tp-pagina/pagina%20tp/index2.html" class="btn-1">Iniciar secion</a>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new swiper("mySwiper",{
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            loop: true,
-            coverflowEffect:{
-                depth:500,
-                modifer:1,
-                slidesShadows:true
-            }
-        })
-    </script>
-</body>
-</html>
+        <section class="gato">
+            <video width="800" height="400" controls>
+                <source src="imagenes/gato.mp4" type="video/mp4">
+            </video>
+        </section>
+    </header>
