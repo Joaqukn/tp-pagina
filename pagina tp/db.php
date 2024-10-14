@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root"; // Cambia según tu configuración
 $password = ""; // Cambia según tu configuración
-$dbname = "painball";
+$dbname = "paintball";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
